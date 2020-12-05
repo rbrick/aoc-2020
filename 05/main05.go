@@ -6,11 +6,6 @@ import (
 	"os"
 )
 
-type Seat struct {
-	Row    int
-	Column int
-}
-
 func Parse(line string) (int, int) {
 	minRow, maxRow := 0, 127
 	minColumn, maxColumn := 0, 7
