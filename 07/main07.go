@@ -124,7 +124,7 @@ func parseBag(s string, graph *BagGraph) *Bag {
 	return parentBag
 }
 
-func day7() {
+func main() {
 
 	graph := &BagGraph{
 		Graph: make(map[string]*Bag),
